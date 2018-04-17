@@ -1,0 +1,14 @@
+K = 1000;
+L = 1:1000;
+Esp_Th_V = (a+b)/2;
+Var_Th_V = ((b-a)^2)/12;
+
+for (i in 1:K)
+{
+  V1 = runif(N);
+  V = (b - a)*V1 + a;
+  Esp_Emp_V = (1/N)*sum(V^1);
+  L[i] = sqrt(N)*((Esp_Emp_V-Esp_Th_V)/sqrt(Var_Th_V));
+}
+
+hist(L, freq=FALSE, nclass = 200);

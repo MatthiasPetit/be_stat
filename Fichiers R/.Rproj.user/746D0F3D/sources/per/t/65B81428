@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1523971603896.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3496409601",
+    "id" : "65B81428",
+    "lastKnownWriteTime" : 1523974233,
+    "last_content_update" : 1523974233797,
+    "path" : "~/MES documents/ENAC/Cours/Maths/Statistique/BE/Fichiers R/Question2.R",
+    "project_path" : "Question2.R",
+    "properties" : {
+        "cursorPosition" : "8,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
