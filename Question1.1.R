@@ -22,3 +22,4 @@ SFC = rexp(N, lambda) + e;
 Esp_Emp_SFC = (1/N)*sum(SFC^1);
 Var_Emp_SFC = (1/N)*sum((SFC - Esp_Emp_SFC)^2);
 hist(SFC, freq=FALSE, nclass = 200);
+
